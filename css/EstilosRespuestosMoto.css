@@ -1,0 +1,290 @@
+/*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+-*-*-*-*-*-*-*-*-*-*ESTILOS GENERALES-*-*-*-*-*-*-*-*-*-*
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*/
+html{
+    display: grid;
+    grid-template-columns:repeat(auto-fit, minmax(150px, 1fr));
+    gap: 32px;
+}
+body{
+    background:linear-gradient(to Bottom, rgba(122, 165, 233, 0.753), rgba(70, 247, 188, 0.753));
+    margin:auto;
+}
+/*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*HEADER-*-*-*-*-**-*-*-*-*-*-*
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*/
+/*Texto de Bienvenida*/
+h1{
+    background:linear-gradient(to top, rgba(155, 136, 242, 0.753), rgba(46, 109, 209, 0.753));
+    height:100px;
+    text-align:center;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:50px;
+    margin:0;
+    padding-top: 40px;
+    border:2px solid #04142fc0;
+}
+/*Barra de Navegacion*/
+.barralist{
+    background:linear-gradient(100deg, rgba(150, 173, 213, 0.753), rgba(9, 84, 213, 0.753));
+    height:60px;
+    display:flex;
+    flex-direction: row;
+    justify-content:space-between;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:20px;
+    border:2px solid #04142fc0;
+    margin:0;
+    padding-left:4px;
+    padding-right:4px;
+    flex-wrap: nowrap;
+}
+.barralist input{
+    height: 45%;
+    width:40%;
+    margin: 0;
+    position: relative;
+    left:5px;
+    top: 22%;
+}
+.barralist input:focus{
+    background: #e46161;
+}
+.barralist label{
+    margin-left:0px 0px;
+    position: relative;
+    left:26px;
+    top: 30%;
+}
+.barralist li{
+    list-style-type: none;
+    display:inline-block;
+    padding: 15px;
+    position: relative;
+    bottom: 87%;
+}
+.barralist li a{
+    text-decoration: none;
+}
+.barralist a>img{
+    border-radius:5px;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    left: 10%;
+}
+.barralist img{
+    margin: 0px;
+    padding: 0px;
+}
+.barralist li:hover{
+    background:#aeafb0c0;
+    text-decoration: underline;
+}
+.barralist li:active{
+    background:#e87f7fc0;
+}
+.barralist input:hover{
+    border:2px solid #1a27ddc0;
+    border-radius:2px;
+}
+/*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+-*-*-*-*-*-*-*-*-*-*-*-*-*MAIN-*-*-*-*-*-*-*-*-*-*-*-*-*
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*/
+h2{
+    text-align: center;
+    font-size:30px;
+    color:#04353ec0;
+
+}
+.Productos1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap:nowrap;
+}
+.Productos2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap:nowrap;
+}
+.Productos3{
+    display: flex;
+    flex-direction: row;
+    flex-wrap:nowrap;
+}
+.Productos1 .P1, .P2, .P3, .P4, .P5{
+    background: #9ca3ea;
+    border: 2px solid #05060f;
+    border-radius:3px;
+    margin: 10px 0px 10px 10px;
+}
+.Productos2 .P6, .P7, .P8, .P9, .P10{
+    background: #9ca3ea;
+    border: 2px solid #05060f;
+    border-radius:3px;
+    margin: 10px 0px 10px 10px;
+}
+.Productos3 .P11, .P12, .P13, .P14, .P15{
+    background: #9ca3ea;
+    border: 2px solid #05060f;
+    border-radius:3px;
+    margin: 10px 0px 10px 10px;
+}
+.Productos1 .P1 img, .P2 img, .P3 img, .P4 img, .P5 img{
+    width:262px;
+    height:200px;
+    padding:2px;
+    margin:10px 10px 10px 10px ;
+    border-radius: 10px;
+}
+.Productos2 .P6 img, .P7 img, .P8 img, .P9 img, .P10 img{
+    width:262px;
+    height:200px;
+    padding:2px;
+    margin:10px 10px 10px 10px;
+    border-radius: 10px;
+}
+.Productos3 .P11 img, .P12 img, .P13 img, .P14 img, .P15 img{
+    width:262px;
+    height:200px;
+    padding:2px;
+    margin:10px 10px 10px 10px ;
+    border-radius: 10px;
+}
+.Productos1 .P1 a b, .P2 a b, .P3 a b, .P4 a b, .P5 a b{
+    font-family: 'Times New Roman', Times, serif;
+    font-size:16px;
+    text-decoration: underline;
+}
+.Productos2 .P6 a b, .P7 a b, .P8 a b, .P9 a b, .P10 a b{
+    font-family: 'Times New Roman', Times, serif;
+    font-size:16px;
+    text-decoration: underline;
+}
+.Productos3 .P11 a b, .P12 a b, .P13 a b, .P14 a b, .P15 a b{
+    font-family: 'Times New Roman', Times, serif;
+    font-size:16px;
+    text-decoration: underline;
+}
+.Productos1 .P1 a b{
+    position: relative;
+    left:26%;
+    bottom:4%;
+}
+.Productos1 .P2 a b{
+    position: relative;
+    left:42%;
+    bottom:4%;
+}
+.Productos1 .P3 a b{
+    position: relative;
+    left:12%;
+    bottom:4%;
+}
+.Productos1 .P4 a b{
+    position: relative;
+    left:30%;
+    bottom:4%;
+}
+.Productos1 .P5 a b{
+    position: relative;
+    left:8%;
+    bottom:4%;
+}
+.Productos2 .P6 a b{
+    position: relative;
+    left:30%;
+    bottom:4%;
+}
+.Productos2 .P7 a b{
+    position: relative;
+    left:22%;
+    bottom:4%;
+}
+.Productos2 .P8 a b{
+    position: relative;
+    left:20%;
+    bottom:4%;
+}
+.Productos2 .P9 a b{
+    position: relative;
+    left:33%;
+    bottom:4%;
+}
+.Productos2 .P10 a b{
+    position: relative;
+    left:18%;
+    bottom:4%;
+}
+.Productos3 .P11 a b{
+    position: relative;
+    left:16%;
+    bottom:4%;
+}
+.Productos3 .P12 a b{
+    position: relative;
+    left:28%;
+    bottom:4%;
+}
+.Productos3 .P13 a b{
+    position: relative;
+    left:28%;
+    bottom:4%;
+}
+.Productos3 .P14 a b{
+    position: relative;
+    left:36%;
+    bottom:4%;
+}
+.Productos3 .P15 a b{
+    position: relative;
+    left:23%;
+    bottom:4%;
+}
+/*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+-*-*-*-*-*-*-*-*-*-*-*-*-FOOTER-*-*-*-*-*-*-*-*-*-*-*-*-*
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*/
+.descuento{
+    text-align: center;
+    text-transform: uppercase;
+    color: #ff0505;
+    font-size:20px;
+    border:2px groove #05060f;
+    padding:20px;
+    margin: 1px;
+    border-radius: 5px;
+}
+.info{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    color: #000000c0;
+    font-size:20px;
+    font-weight:bold;
+    text-align: center;
+}
+.info p{
+    margin: 2px;
+}
+.RRSS img{
+    position: relative;
+    left:41%;
+    width:3%;
+    height:3%;
+    padding:8px;
+    display: inline-block;
+    flex-wrap:wrap;
+}
+cite{
+    display: block;
+    text-align: center;
+}
+.RRSS img:hover{
+    background: #89c7f3;
+    border-radius: 5px;
+}
+.RRSS a:active{
+    background: #e46161;
+    border-radius: 5px;
+}

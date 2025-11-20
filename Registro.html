@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BicycleShop | La Solucion para tu Bici o Motocicleta</title>
+    <link rel="shortcut icon" type="image/icon" href="Imagenes/Imagen1.jpg">
+    <link rel="stylesheet" href="./css/estilosRegistro.css">
+</head>
+<body>
+    <header>
+        <h1>BIENVENIDOS A NUESTRA WEB</h1>
+        <nav class="barralist">
+                <a href="./Index.html"><img src="Imagenes/Imagen1.jpg" alt="logo" width="503" height="503"></a>
+                <label id="Barra">Busqueda Rapida:</label>
+                <input type="text" placeholder="Search" maxlength="150" size="50" name="barra" id="barra">
+            <ul>
+                <li><a href="./Index.html">Inicio</a></li>
+                <li><a href="./Productos.html">Productos</a></li>
+                <li><a href="./Presupuesto.html">Cotización</a></li>
+                <li><a href="./Contacto.html">Contacto</a></li>
+            </ul>
+            <a href="./InicioSesion.html"><img src="./Imagenes/Login1.png" alt="login" width="503" height="503"></a>
+        </nav>
+    </header>
+    <main>
+        <img src="./Imagenes/Paisaje1.jpg" alt="carretera" class="ltr">
+        <section>
+            <h2>Registrate Aqui</h2>
+            <form>
+                <fieldset>
+                    <legend>Datos Personales</legend>
+                    <div class="formularios">
+                    <label for="nombre">Nombres</label><br>
+                    <input type="text" placeholder="Escriba su nombre" maxlength="30" size="30" name="nombre" id="nombre"><br>
+                    <label for="apellidos">Apellidos</label><br>
+                    <input type="text" placeholder="Escriba su apellido" maxlength="30" size="30" name="apellidos" id="apellidos"><br>
+                    <label for="Identidad">Documento de Identidad</label><br>
+                    <select class="doc">
+                        <option class="boton" value="DNI">DNI</option>
+                        <option class="boton" value="NIE">NIE</option>
+                        <option class="boton" value="Pasaporte">Pasaporte</option>
+                    </select>
+                    <input type="text" placeholder="Escriba Numero de Identidad" maxlength="30" size="30" name="Identidad" id="Identidad"><br>
+                    <label for="año">Año de Nacimiento</label><br>
+                    <input type="date" name="año" id="año"> <br>               
+                    <label for="Correo">Email</label><br>
+                    <input type="email" placeholder="Escriba su Correo Electronico" maxlength="50" size="35" name="Correo" id="Correo"><br>
+                    <label for="usuario">Usuario</label><br>
+                    <input type="text" placeholder="Nombre de Usuario" maxlength="50" size="25" name="usuario" id="usuario"><br>
+                    <label for="contraseña">Contraseña</label><br>
+                    <input type="password" placeholder="Intrduzca su Clave" maxlength="15" size="20" name="contraseña" id="contraseña"><br>
+                    </div>
+                    <div class="condiciones">
+                        <input type="checkbox">
+                        <a><b>Estoy de acuerdo con los terminos y condiciones de politica de Privacidad de este sitio</b></a><br>
+                    </div>
+                    <div class="Login">
+                        <input type="submit" value="Registrar" id="Register">           
+                    </div><br>
+                    <div class="opcionlogin">
+                        <a href="./InicioSesion.html">Iniciar Sesion</a><br>
+                        <a href="./Registro.html">Registrarse</a>
+                    </div>
+                </fieldset>
+            </form>
+        </section>
+        <img src="./Imagenes/Paisaje2.jpg" alt="park" class="rtl">
+    </main>
+    <footer>
+        <p class="descuento">REGISTRATE Y OBTENDRAS DESCUENTAZOS QUE NO PUEDES PERDER</p>
+        <div class="info">
+            <p>Telefono de Contacto:<br> +34 65457767</p> 
+            <p>Email:<br> infopedido@gmail.com</p>
+            <p>Dirección:<br>Madrid, España</p>
+        </div>
+        <div class="RRSS">
+            <a target="_blank" href="https://web.whatsapp.com/"><img src="./Imagenes/Whatsapp.png" alt="Whatsapp" width="509" height="512"></a>
+            <a target="_blank" href="https://www.facebook.com/?locale=es_ES"><img src="./Imagenes/Facebook.png" alt="Facebook" width="512" height="512"></a>
+            <a target="_blank" href="https://www.instagram.com/"><img src="./Imagenes/Instagram.png" alt="Instagram" width="512" height="512"></a>
+            <a target="_blank" href="https://x.com/?lang=es"><img src="./Imagenes/twitter.png" alt="twitter" width="512" height="512"></a>
+            <a target="_blank" href="https://www.tiktok.com/es/"><img src="./Imagenes/Tiktok.png" alt="Tiktok" width="452" height="512"></a>
+        </div>
+        <hr>
+            <cite>Creado por Miguel Arevalo / Todos los derechos reservado</cite>
+        <hr>
+    </footer>
+</body>
+</html>

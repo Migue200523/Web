@@ -1,0 +1,188 @@
+/*ESTILOS GENERALES*/
+html{
+    background:url(../Imagenes/background.jpg);
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-position:center;
+    background-size:100%;
+    margin:0px;
+    padding: 0px;
+}
+*{
+    padding: 0px;
+    font-family: 'Times New Roman', Times, serif;
+}
+/* Estilos H1*/
+h1{
+    background:#2c21b9;
+    font-size:50px;
+    font-family:"Times New Roman";
+    color:#000;
+    font-weight:bold;
+    text-align:center;
+    margin:0px;
+    padding:50px;
+    border:5px solid #000;
+    border-radius:7%;
+    position: relative;
+    bottom:8px;
+}
+/*BARRA DE NAVEGACION HORIZONTAL*/
+nav{
+    margin:0px 10px;
+    padding:1px 0px;
+    background:#7870f1;
+    overflow:hidden;
+    border-radius:5%;
+    position: relative;
+    bottom:25px;
+}
+#navegacion{
+    position:relative;
+    left:70px;
+    margin: 0px;
+    padding: 1px 5px;
+}
+li{
+    list-style:none;
+    float:left;
+    position: relative;
+    left:20px;
+}
+.logo{
+    width:60px;
+    height:50px;
+    margin:0px;
+    padding:15px 15px;
+    display:block;
+    float: left;
+    border-radius:10px;
+    position: relative;
+    bottom:1px;
+    left:75px;
+    
+}
+#login{
+    width:60px;
+    height:50px;
+    margin:0px;
+    padding:5px 2px;
+    display:block;
+    float: left;
+    position: relative;
+    bottom: 5px;
+    left:30px;
+}
+.Barra{
+    display:block;
+    float: left; 
+}
+.Barra label{
+    padding:2px 40px;
+    margin:2px;
+    position: relative;
+    top:22px;
+    left:42px;
+}
+.Barra input{
+    width:500px;
+    height:25px;
+    padding:2px 2px;
+    margin:2px;
+    position:relative;
+    top:22px;
+    border-radius:5px;
+}
+a{
+    display:block;
+    float: left;
+    color:#000;
+    text-align:center;
+    padding: 15px 15px;
+    margin:0px;
+    text-decoration:none;
+    width:70px;
+    height:5px;
+}
+.Login{
+    float:left;
+    position: relative;
+    right:65px;
+}
+li:hover{
+    background:#b5b5e3;
+}
+li a:hover{
+    text-decoration: underline;
+    border-radius:5px;
+}
+li a:active{
+    background:#2c21b9;
+    border-radius:5px;
+}
+
+/*CUERPO DEL SITIO WEB*/
+h2{
+    margin:5px 5px;
+    padding:5px 5px;
+    text-align: center;
+}
+section{
+    width:30%;
+    height:650px;
+    border:5px solid #07075a;
+    margin:15px;
+    padding:15px;
+    background:#2c21b9;
+    box-shadow:1px 1px 1px 1px#b5b5e3;
+    border-radius:5%;
+    position:relative;
+    left:500px;
+    bottom:20px;
+}
+legend{
+    padding: 10px;
+    margin:0px;
+    border: 1px solid #000;
+    text-align: center;
+}
+label{
+    padding:15px;
+    text-decoration: underline;
+}
+input{
+    margin:10px;
+    padding:4px;
+}
+.doc{
+    height:27px;
+    position: relative;
+    left:10px;
+}
+input[type=submit]{
+    position:relative;
+    left:170px;
+    width:100px;
+    height:50px;
+    border-radius:5px;
+}
+input[type=submit]:hover{
+    background:#b5b5e3;
+}
+input[type=submit]:active{
+    background:#2c21b9;
+}
+/*PIE DE PAGINA DE LA PAGINA*/
+footer{
+    background:#b5b5e3;
+    border:5px solid #07075a;
+    border-radius:5px;
+    padding:5px;
+}
+h4, hr cite {
+    font-size:20px;
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+    position:relative;
+    left:8px;
+}

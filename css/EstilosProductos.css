@@ -1,0 +1,213 @@
+/*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+-*-*-*-*-*-*-*-*-*-*ESTILOS GENERALES-*-*-*-*-*-*-*-*-*-*
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*/
+html{
+    display: grid;
+    grid-template-columns:repeat(auto-fit, minmax(150px, 1fr));
+    gap: 32px;
+}
+body{
+    background:linear-gradient(to Bottom, rgba(122, 165, 233, 0.753), rgba(70, 247, 188, 0.753));
+    margin:auto;
+}
+/*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+-*-*-*-*-*-*-*-*-*-*-*-*-HEADER-*-*-*-*-*-*-*-*-*-*-*-*-*
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*/
+/*Texto de Bienvenida*/
+h1{
+    background:linear-gradient(to top, rgba(155, 136, 242, 0.753), rgba(46, 109, 209, 0.753));
+    height:100px;
+    text-align:center;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:50px;
+    margin:0;
+    padding-top: 40px;
+    border:2px solid #04142fc0;
+}
+/*Barra de Navegacion*/
+.barralist{
+    background:linear-gradient(100deg, rgba(150, 173, 213, 0.753), rgba(9, 84, 213, 0.753));
+    height:60px;
+    display:flex;
+    flex-direction: row;
+    justify-content:space-between;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:20px;
+    border:2px solid #04142fc0;
+    margin:0;
+    padding-left:4px;
+    padding-right:4px;
+    flex-wrap: nowrap;
+}
+.barralist input{
+    height: 45%;
+    width:40%;
+    margin: 0;
+    position: relative;
+    left:5px;
+    top: 22%;
+}
+.barralist input:focus{
+    background: #e46161;
+}
+.barralist label{
+    margin-left:0px 0px;
+    position: relative;
+    left:26px;
+    top: 30%;
+}
+.barralist li{
+    list-style-type: none;
+    display:inline-block;
+    padding: 15px;
+    position: relative;
+    bottom: 87%;
+}
+.barralist li a{
+    text-decoration: none;
+}
+.barralist a>img{
+    border-radius:5px;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    left: 10%;
+}
+.barralist img{
+    margin: 0px;
+    padding: 0px;
+}
+.barralist li:hover{
+    background:#aeafb0c0;
+    text-decoration: underline;
+}
+.barralist li:active{
+    background:#e87f7fc0;
+}
+.barralist input:hover{
+    border:2px solid #1a27ddc0;
+    border-radius:2px;
+}
+/*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+-*-*-*-*-*-*-*-*-*-*-*-*-*MAIN-*-*-*-*-*-*-*-*-*-*-*-*-*
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*/
+h2{
+    text-align: center;
+    font-size:30px;
+    color:#04353ec0;
+
+}
+.Seleccionimg{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin:5px;
+    padding: 5px;
+}
+.Seleccionimg .RBici img{
+    width:95%;
+    height:500px ;
+}
+.Seleccionimg .Mtto img{
+    width: 95%;
+    height:500px ;
+}
+.Seleccionimg .RMoto img{
+    width:95%;
+    height:500px ;
+}
+.Seleccionimg .RBici{
+    background: #f8ecec;
+    border: 1px solid #05060f;
+    border-radius:5px;
+    padding: 10px 0px 50px 20px;
+    position: relative;
+    left: 10%;
+}
+.Seleccionimg .Mtto{
+    background: #f8ecec;
+    border: 1px solid #05060f;
+    border-radius:5px;
+    padding: 10px 0px 40px 20px;
+}
+.Seleccionimg .RMoto{
+    background: #f8ecec;
+    border: 1px solid #05060f;
+    border-radius:5px;
+    padding: 10px 0px 40px 20px;
+    position: relative;
+    right: 10%;
+}
+.Seleccionimg a b{
+    font-size:16px;
+    text-decoration:underline;
+    color:#05060f;
+    border:3px solid #1255ff;
+    border-radius:5px;
+    padding: 8px;
+    margin: 8px;
+}
+section .Seleccionimg .RBici a{
+    position: relative;
+    left:12%;
+    top:3%;
+}
+section .Seleccionimg .Mtto a{
+    position: relative;
+    left:5%;
+    top:3%;
+}
+section .Seleccionimg .RMoto a{
+    position: relative;
+    left:2%;
+    top:3%;
+}
+
+/*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+-*-*-*-*-*-*-*-*-*-*-*-*-FOOTER-*-*-*-*-*-*-*-*-*-*-*-*-*
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*/
+.descuento{
+    text-align: center;
+    text-transform: uppercase;
+    color: #ff0505;
+    font-size:20px;
+    border:2px groove #05060f;
+    padding:20px;
+    margin: 1px;
+    border-radius: 5px;
+}
+.info{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    color: #000000c0;
+    font-size:20px;
+    font-weight:bold;
+    text-align: center;
+}
+.info p{
+    margin: 2px;
+}
+.RRSS img{
+    position: relative;
+    left:41%;
+    width:3%;
+    height:3%;
+    padding:8px;
+    display: inline-block;
+    flex-wrap:wrap;
+}
+cite{
+    display: block;
+    text-align: center;
+}
+.RRSS img:hover{
+    background: #89c7f3;
+    border-radius: 5px;
+}
+.RRSS a:active{
+    background: #e46161;
+    border-radius: 5px;
+}
