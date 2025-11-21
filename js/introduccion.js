@@ -1,1 +1,0 @@
-alert('Hola Mundo, desde el archivo externo JS');
