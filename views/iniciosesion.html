@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciar Sesion | Bicycleshop</title>
+    <link rel="shortcut icon" type="image/icon" href="../Imagenes/Imagen1.jpg">
+    <link rel="stylesheet" href="../css/EstilosGenerales.css">
+</head>
+<body>
+    <header>
+        <h1>BIENVENIDOS A NUESTRA WEB</h1>
+        <nav class="barralist">
+            <a href="../index.html"><img src="../Imagenes/Imagen1.jpg" alt="logo" width="503" height="503"></a>
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="./productos.html">Productos</a></li>
+                <li><a href="./presupuesto.html">Presupuesto</a></li>
+                <li><a href="./contacto.html">Contacto</a></li>
+            </ul>
+            <a href="./iniciosesion.html"><img src="../Imagenes/login1.png" alt="login" width="503" height="503"></a>
+        </nav>
+    </header>
+    <div class="Mainsesion">
+        <img src="../Imagenes/Paisaje1.jpg" alt="carretera" class="ltr">
+        <section class="entrar">
+            <h2>Iniciar Sesion</h2>
+            <form id="MyForm" name="Form" action="#" method="get" target="_self">
+                <fieldset>
+                    <legend>Datos de Ingreso</legend>
+                    <div class="formularios">
+                    <label for="usuario">Usuario:</label>
+                    <input type="text" placeholder="Nombre de Usuario" maxlength="50" size="40" name="usuario" id="usuario" pattern="[A-Za-z0-9.,-]{5,15}" title="Introduzca un usuario valido" required>
+                    <label for="contraseña">Contraseña:</label>
+                    <input type="password" placeholder="Intrduzca su Clave" maxlength="15" size="40" name="contraseña" id="contraseña" pattern="[A-Za-z0-9.,-@*]{6,20}" title="Debe tener al menos 6 caracteres" required>
+                    <a href="#">¿Olvido su contraseña o usuario?</a>
+                    </div>
+                    <div class="Login">
+                        <input type="submit" value="Iniciar Sesion" id="Login">                
+                    </div>
+                    <div class="opcionlogin">
+                        <a href="./InicioSesion.html">Iniciar Sesion</a>
+                        <a href="./Registro.html">Registrarse</a>
+                    </div>
+                </fieldset>
+            </form>
+        </section>
+        <img src="../Imagenes/Paisaje2.jpg" alt="park" class="rtl">
+    </div>
+    <footer>
+        <p class="descuento">REGISTRATE Y OBTENDRAS DESCUENTAZOS QUE NO PUEDES PERDER</p>
+        <div class="info">
+            <p>Telefono de Contacto:<br> +34 65457767</p> 
+            <p>Email:<br> infopedido@gmail.com</p>
+            <p>Dirección:<br>Madrid, España</p>
+        </div>
+        <div class="RRSS">
+            <a target="_blank" href="https://web.whatsapp.com/"><img src="../Imagenes/Whatsapp.png" alt="Whatsapp" width="509" height="512"></a>
+            <a target="_blank" href="https://www.facebook.com/?locale=es_ES"><img src="../Imagenes/Facebook.png" alt="Facebook" width="512" height="512"></a>
+            <a target="_blank" href="https://www.instagram.com/"><img src="../Imagenes/Instagram.png" alt="Instagram" width="512" height="512"></a>
+            <a target="_blank" href="https://x.com/?lang=es"><img src="../Imagenes/twitter.png" alt="twitter" width="512" height="512"></a>
+            <a target="_blank" href="https://www.tiktok.com/es/"><img src="../Imagenes/Tiktok.png" alt="Tiktok" width="452" height="512"></a>
+        </div>
+        <hr>
+            <cite>Creado por Miguel Arevalo / Todos los derechos reservado</cite>
+        <hr>
+    </footer>
+</body>
+</html>

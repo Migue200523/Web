@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/EstilosGenerales.css">
+    <title>Presupuestos | Obtenga los Mejores Precios</title>
+    <link rel="shortcut icon" type="image/icon" href="../Imagenes/Imagen1.jpg">
+</head>
+<body>
+    <header>
+        <h1>PRESUPUESTOS</h1>
+        <nav class="barralist">
+            <a href="../index.html"><img src="../Imagenes/Imagen1.jpg" alt="logo" width="503" height="503"></a>
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="./productos.html">Productos</a></li>
+                <li><a class="active2" href="./presupuesto.html">Presupuesto</a></li>
+                <li><a href="./contacto.html">Contacto</a></li>
+            </ul>
+            <a href="./iniciosesion.html"><img src="../Imagenes/login1.png" alt="login" width="503" height="503"></a>
+        </nav>
+    </header>
+    <main>
+        <img src="../Imagenes/Bicicletas.jpg" alt="carretera" class="ltr">
+        <section class="registrar">
+            <h2>Solicita tus Precios</h2>
+            <form id="MyForm" name="Form" action="#" method="get" target="_self">
+                <fieldset>
+                    <legend>Solicitud de Cotización</legend>
+                    <div class="formularioR">
+                        <ul>
+                            <li>
+                                <select class="doc">
+                                    <option class="boton" value="DNI">DNI</option>
+                                    <option class="boton" value="NIE">NIE</option>
+                                    <option class="boton" value="Pasaporte">Pasaporte</option>
+                                </select>
+                                <input type="text" placeholder="Escriba Numero de Identidad" maxlength="30" size="30" name="Identidad" id="Identidad" pattern="[A-Za-z0-9]{9}" title="Debe tener numeros y letras" required>
+                            </li>
+                            <li>
+                                <label for="nombre">Nombres:</label>
+                                <input type="text" placeholder="Escriba su nombre" maxlength="30" size="30" name="nombre" id="nombre" pattern="[A-Z a-z]{3,15}" title="Debe tener al menos 3 caracteres" required>
+                            </li>
+                            <li>
+                                <label for="apellidos">Apellidos:</label>
+                                <input type="text" placeholder="Escriba su apellido" maxlength="30" size="30" name="apellidos" id="apellidos" pattern="[A-Z a-z]{3,15}" title="Debe tener al menos 3 caracteres" required>            
+                            </li>
+                            <li>
+                                <label for="Correo">Email:</label>
+                                <input type="email" placeholder="Escriba su Correo Electronico" maxlength="50" size="30" name="Correo" id="Correo" pattern="[A-Za-z0-9.-_]+@[a-zA-Z.]{5-40}" title="debe cumplir como en el ejemplo: ejemplo@cicle.com" required>
+                            </li>
+                            <li>
+                                <label for="Telefono">Telefono:</label>
+                                <input type="tel" placeholder="Escriba su numero de contacto" maxlength="50" size="30" name="Telefono" id="Telefono" pattern="[0-9]{9}" title="Introduzca su movil correctamente" required>
+                            </li>
+                            <li>
+                                <textarea name="comentario" id="comentario" placeholder="Describa los Productos a Cotizar" rows="5" cols="51"></textarea>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="condiciones1">
+                        <ul>
+                            <li>
+                                <input type="checkbox" id="check" name="check" required>
+                                <a><b>Estoy de acuerdo con los terminos y condiciones de politica de Privacidad de este sitio</b></a>
+                            </li>
+                            <li>
+                                <input type="checkbox" id="box" name="box" >
+                                <a><b>¿Desea recibir nuestras ofertas?</b></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="Login1">  
+                        <input type="submit" value="Enviar Datos" id="Envio" name="Envio">
+                    </div>
+                </fieldset>
+            </form>
+        </section>
+        <img src="../Imagenes/Motocicleta.jpg" alt="park" class="rtl">
+    </main>
+    <footer>
+        <p class="descuento">REGISTRATE Y OBTENDRAS DESCUENTAZOS QUE NO PUEDES PERDER</p>
+        <div class="info">
+            <p>Telefono de Contacto:<br> +34 65457767</p> 
+            <p>Email:<br> infopedido@gmail.com</p>
+            <p>Dirección:<br>Madrid, España</p>
+        </div>
+        <div class="RRSS">
+            <a target="_blank" href="https://web.whatsapp.com/"><img src="../Imagenes/Whatsapp.png" alt="Whatsapp" width="509" height="512"></a>
+            <a target="_blank" href="https://www.facebook.com/?locale=es_ES"><img src="../Imagenes/Facebook.png" alt="Facebook" width="512" height="512"></a>
+            <a target="_blank" href="https://www.instagram.com/"><img src="../Imagenes/Instagram.png" alt="Instagram" width="512" height="512"></a>
+            <a target="_blank" href="https://x.com/?lang=es"><img src="../Imagenes/twitter.png" alt="twitter" width="512" height="512"></a>
+            <a target="_blank" href="https://www.tiktok.com/es/"><img src="../Imagenes/Tiktok.png" alt="Tiktok" width="452" height="512"></a>
+        </div>
+        <hr>
+            <cite>Creado por Miguel Arevalo / Todos los derechos reservado</cite>
+        <hr>
+    </footer>
+</body>
+</html>
